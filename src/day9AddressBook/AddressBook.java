@@ -25,6 +25,10 @@ public class AddressBook {
 		PhoneNo = scanner.next();
 		System.out.println("Enter Email Id ");
 		Email = scanner.next();
+		
+		System.out.println("\n First Name -" + First_Name + "\n Last Name -" + Last_Name + "\n Address -" + Address
+				+ "\n City Name -" + City + "\n State Name -" + State + "\n Zip code -" + Zip + "\n Phone number -"
+				+ PhoneNo + "\n Email id -" + Email);
 
 	}
 }
